@@ -74,7 +74,7 @@ def get_asset_site(scope_id:str):
     else:
       print(f"请求失败，状态码: {response.status_code}")
       return -1
-    return 0
+  return 0
 
 
 def get_asset_domain(scope_id:str):
@@ -113,7 +113,7 @@ def get_asset_domain(scope_id:str):
     else:
       print(f"请求失败，状态码: {response.status_code}")
       return -1
-    return 0
+  return 0
 
 
 def get_asset_ip(scope_id:str):
@@ -178,7 +178,7 @@ def get_asset_ip(scope_id:str):
     else:
       print(f"请求失败，状态码: {response.status_code}")
       return -1
-    return 0
+  return 0
 
 
 def save_to_xlsx(filename:str):
