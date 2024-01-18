@@ -8,7 +8,7 @@
 本工具可以导出某一资产范围下的所有站点, 域名, ip, 和它们的详细信息.
 
 # Usage
-1. 修改python脚本中的`url`, `token`, 'scope_id'.
+1. 修改python脚本中的`url`, `token`, `scope_id`.
 
 2. 执行`python export.py`.
 
